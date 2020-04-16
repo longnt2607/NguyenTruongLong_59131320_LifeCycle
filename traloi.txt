@@ -1,0 +1,14 @@
+4. 
+	Khi ?ng d?ng dang ch?y: onCreate -> onStart -> onResume
+	Khi ngu?i dung b?m nút Back: onPause -> onStop -> onDestroy
+	Khi m? l?i ?ng d?ng: onCreate -> onStart -> onResume
+
+5.
+	Khi ?ng d?ng dang ch?y: onCreate -> onStart -> onResume
+	Khi ngu?i dùng b?m nút Home: onPause -> onStop
+	Khi m? l?i ?ng d?ng: onRestart -> onStart -> onResume
+6.
+	N?u c?n luu thông tin c?a ?ng d?ng d? khôi ph?c l?i tr?ng thái hi?n th? c?a ?ng d?ng
+khi ch?y l?i ?ng d?ng thì c?n ph?i th?c hi?n trong phuong th?c vòng d?i onPause().
+	Vì phuong th?c này du?c g?i khi h? th?ng s?p b?t d?u m?t ho?t d?ng khác, ta có th? 
+th?c hi?n vi?c luu l?i thông tin khi phuong th?c này du?c g?i.
